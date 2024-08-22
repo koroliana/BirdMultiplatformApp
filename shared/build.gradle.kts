@@ -34,6 +34,8 @@ kotlin {
                 implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.12")
                 api("dev.icerock.moko:mvvm-core:0.16.1") // only ViewModel, EventsDispatcher, Dispatchers.UI
                 api("dev.icerock.moko:mvvm-compose:0.16.1") // api mvvm-core, getViewModel for Compose Multiplatform
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+
             }
         }
         val androidMain by getting {

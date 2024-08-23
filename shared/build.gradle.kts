@@ -82,5 +82,5 @@ android {
     }
 }
 dependencies {
-    implementation("com.google.android.ads:mediation-test-suite:3.0.0")
+   // implementation("com.google.android.ads:mediation-test-suite:3.0.0")
 }
